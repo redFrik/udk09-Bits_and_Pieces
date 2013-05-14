@@ -1,0 +1,29 @@
+130502: MIDI from MaxMSP or PureData hooked up to OpenGL graphics in Processing
+
+
+//--install processing
+download and install Processing (2.0b8) from http://processing.org/download
+play around with some examples
+try udk_sketch00, udk_sketch01, udk_sketch02 and change things
+
+//--midi
+http://en.wikipedia.org/wiki/Midi
+old technique mainly for connecting hardware synths and controllers (midi saxophone, midi drum kits, midi 'usb' controllers)
+only 7bits (0-127), note on/off, controllers, program change etc see midi spec
+
+//--hardware
+nanoKontroll, midi controllers, keyboards etc
+midi iac bus
+
+install promidi library (2.0) from http://processing.org/reference/libraries/ and http://creativecomputing.cc/p5libs/promidi/
+and restart processing
+
+//--activate iac
+(osx) go to audio/midi setup application and enable iac bus
+
+//--test max patch
+install max/msp (5 or 6)
+see MIDItester under menu Extras
+check udk_midi00.app standalone
+
+//--test pd patch

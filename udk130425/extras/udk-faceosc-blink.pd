@@ -1,0 +1,40 @@
+#N canvas 481 22 1164 969 16;
+#X obj 222 738 output~;
+#X obj 216 624 openpanel;
+#X obj 219 594 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X msg 217 649 open \$1;
+#X floatatom 413 691 5 0 0 0 - - -;
+#X text 468 688 speed;
+#X text 195 790 • turn up the volume;
+#X obj 217 689 moonlib/sfread2~ 2;
+#X text 195 556 • then load a soundfile here;
+#X obj 714 33 mrpeach/udpreceive 8338;
+#X obj 555 254 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X obj 555 191 change;
+#X obj 714 65 mrpeach/unpackOSC;
+#X floatatom 1194 358 5 0 0 0 - - -;
+#X floatatom 1195 453 5 0 0 0 - - -;
+#X floatatom 1196 541 5 0 0 0 - - -;
+#X text 1254 356 mouth height;
+#X text 1256 452 eyebrow right;
+#X text 1260 540 eye right;
+#X obj 724 94 print;
+#X obj 555 154 route /gesture/blink;
+#X text 577 247 blinking;
+#X obj 526 253 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X connect 1 0 3 0;
+#X connect 2 0 1 0;
+#X connect 3 0 7 0;
+#X connect 4 0 7 1;
+#X connect 7 0 0 0;
+#X connect 7 1 0 1;
+#X connect 9 0 12 0;
+#X connect 11 0 10 0;
+#X connect 11 0 22 0;
+#X connect 12 0 19 0;
+#X connect 12 0 20 0;
+#X connect 20 0 11 0;
+#X connect 22 0 7 0;
