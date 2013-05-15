@@ -7,7 +7,7 @@ In this course we will make a new small project each week. The projects will be 
 
 The bits we will play with include sensors, cameras, speakers, LEDs, networks, Arduino, SuperCollider, PureData, Processing, Serial, OSC, MIDI. And the pieces include projects like making sound from light with an Arduino, controlling LEDs from SuperCollider, colour tracking with a webcam in PureData, controlling computers from remote with Terminal, sound detection and categorization with SuperCollider, MIDI hooked up to OpenGL graphics in Processing etc.
 
-* weekly, thu 14-16
+* weekly, thu 14-16, room111
 * requirements for attending : none
 * requirements for Leistungsschein : attendance
 
@@ -15,7 +15,7 @@ dates
 -----
 - [x] [25apr](https://github.com/redFrik/udk09-Bits_and_Pieces/tree/master/udk130425): colour tracking with a webcam in PureData controls sound files recorded in Audacity (+ try FaceOSC)
 - [x] [02may](https://github.com/redFrik/udk09-Bits_and_Pieces/tree/master/udk130502): MIDI from MaxMSP or PureData hooked up to OpenGL graphics in Processing
-- [x] 09may: holiday, **NO CLASS**
+- [x] 09may: **NO CLASS** (holiday)
 - [ ] [16may](https://github.com/redFrik/udk09-Bits_and_Pieces/tree/master/udk130516): building an Arduino bare bone (+ try LaunchPad with Energia as a cheap alternative)
 - [ ] 23may: controlling LEDs and motors from SuperCollider using the Arduino bare bone (using uln2803 as a driver + try small motors)
 - [ ] 30may: making sound from light with an Arduino (analog inputs, smoothing data, 1bit music)
