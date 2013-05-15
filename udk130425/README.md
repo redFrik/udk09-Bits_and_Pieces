@@ -16,8 +16,8 @@ _colour tracking with a webcam in PureData controls sound files recorded in Auda
 3. play with the texture etc (`udk-test1.pd`)
 4. look at the `udk-colourtracking.pd` patch, load the sound you recorded with audacity above
 5. load different soundfiles, try changing threshold, speed etc
-6. add a `[speedlim]` after `[change]`
-7. connect a colour to speed. also try adding objects for smoothing and scaling
+6. add a `[speedlim]` after `[change]` to reduce the rate
+7. connect so that a colour changes playback speed of the soundfile. also try adding objects for smoothing and scaling
 
 //--more
 --------
@@ -35,5 +35,5 @@ _colour tracking with a webcam in PureData controls sound files recorded in Auda
 
 //--links
 ---------
-* more advanced video tracking <http://simplecv.org/download>
+* more advanced video tracking <http://simplecv.org> using python or javascript
 * learn pd <http://www.pd-tutorial.com> and <http://en.flossmanuals.net/pure-data/>
