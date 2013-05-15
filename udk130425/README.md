@@ -1,35 +1,39 @@
-130425: colour tracking with a webcam in PureData controls sound files recorded in Audacity (+ try FaceOSC)
+130425
+======
 
+_colour tracking with a webcam in PureData controls sound files recorded in Audacity (+ try FaceOSC)_
 
-//--install audacity
-download and install Audacity (2.0.3) from http://audacity.sourceforge.net
-record a simple stereo soundfile from internal microphone
-save as wav 16bit
-
+//--install Audacity
+--------------------
+1. download and install Audacity (2.0.3) from <http://audacity.sourceforge.net>
+2. record a simple stereo soundfile from internal microphone (osx: set internal mic in system preferences/sound)
+3. save the recording as a wav 16bit format
 
 //--install pd (pure-data)
-download and install Pd-extended (0.43.4) from http://puredata.info
-show http://www.pd-tutorial.com
-
-build a simple gem patch with pix_video
-look at the udk-colourtracking.pd patch
-load different soundfiles, try changing threshold, speed etc
-add a speedlim after change
-connect a colour to speed.  with smooth and scale
-
+--------------------------
+1. download and install Pd-extended (0.43.4) from <http://puredata.info> (osx 10.8: you might need to install XQuartz (x11))
+2. build a simple gem patch with pix_video (`udk-webcam.pd`)
+3. play with the texture etc (`udk-test1.pd`)
+4. look at the `udk-colourtracking.pd` patch, load the sound you recorded with audacity above
+5. load different soundfiles, try changing threshold, speed etc
+6. add a `[speedlim]` after `[change]`
+7. connect a colour to speed. also try adding objects for smoothing and scaling
 
 //--more
-try with dvcam to zoom in and nightshot
-raspberry pi + webcam + pd + battery= cheap small wireless sound trigger device
+--------
+* try with a dv-camera. good zoom and nightshot.  if used in combo with the pd colour tracker above, you can zoom in on details from far away in low light conditions.
+* raspberry pi + webcam + pd + battery => cheap small wireless sound trigger device.
 
+//--extras
+----------
+* install face osc application <https://github.com/kylemcdonald/ofxFaceTracker/downloads> (get BlinkExample-osx and FaceOSC.zip)
+* see `extras/udk-faceosc.pd` and `extras/udk-faceosc-blink.pd` for pd examples.
+* see `extras/udk-faceosc.scd` for supercollider template code.
+* demo <http://www.dxginger.com/2011/09/24/face-osc/>
+* more examples <https://github.com/CreativeInquiry/FaceOSC-Templates>
+* nice projects <http://golancourses.net/2013/category/project-1/face-osc/>
 
-//--faceosc
-see udk-faceosc.pd and udk-faceosc-blink.pd
-see udk-faceosc.scd for supercollider
-https://github.com/kylemcdonald/ofxFaceTracker/downloads (get BlinkExample-osx, FaceOSC.zip)
-http://www.dxginger.com/2011/09/24/face-osc/
-https://github.com/CreativeInquiry/FaceOSC-Templates
-http://golancourses.net/2013/category/project-1/face-osc/
-
-
-http://simplecv.org/download
+//--links
+---------
+* more advanced video tracking <http://simplecv.org/download>
+* learn pd <http://www.pd-tutorial.com> and <http://en.flossmanuals.net/pure-data/>
