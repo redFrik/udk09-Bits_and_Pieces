@@ -1,7 +1,7 @@
 130516
 ======
 
-_building an Arduino bare bone (+ try LaunchPad with Enigma as a cheap alternative)_
+_building an Arduino bare bone (+ try LaunchPad with Energia as a cheap alternative)_
 
 //--build bare bone arduino
 ---------------------------
@@ -44,6 +44,11 @@ in arduino ide software select the board udkBareBone
 select the serial port of the arduino
 select 'arduino as isp' under programmer
 and last 'burn bootloader'
+
+//--launchpad
+-------------
+* cheap alternative to an arduino
+* see <http://energia.nu>
 
 //--links
 ---------
