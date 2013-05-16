@@ -30,20 +30,25 @@ We will use a real arduino (maybe borrowed from a friend) to burn the bootloaded
 * connect arduino 12 to atmega168 pin 18 (miso)
 * connect arduino 13 to atmega168 pin 19 (sck)
 * also connect atmega168 pins 9 and 10 to the chrystal and then via caps to ground
-* the reset pull-up resistor you can skip
+* the reset pull-up resistor in the diagram you can skip
 
 ![arduinoisp connections](https://raw.github.com/redFrik/udk09-Bits_and_Pieces/master/udk130516/IMG_20130516_042113.jpg)
 
 //--burn bootloader with an arduino
 -----------------------------------
-1. in Arduino IDE software under Tools/Board select the board that matches your real arduino (use Uno for RedBoard).
-2. select the serial port of the real arduino under Tools/SerialPort.
-3. open and upload the 'ArduinoISP' sketch from Examples menu.
-4. select the board `Arduino NG or older w/ ATmega168` under Tools/Board menu.
-5. select 'Arduino as ISP' under Tools/Programmer.
-6. and last 'Burn Bootloader' under Tools. If it worked the Arduino IDE software should after a while say: "Done burning bootloader".
+1. download and install Arduino IDE software from <http://arduino.cc/en/Main/Software> if you haven't already got it.
+2. in Arduino IDE software under Tools/Board select the board that matches your real arduino (use Uno for RedBoard).
+3. select the serial port of the real arduino under Tools/SerialPort.
+4. open and upload the 'ArduinoISP' sketch from Examples menu.
+5. select the board `Arduino NG or older w/ ATmega168` under Tools/Board menu.
+6. select 'Arduino as ISP' under Tools/Programmer.
+7. last 'Burn Bootloader' under Tools. It should take a little while and leds should be flashing during the process.
 
-You can also burn a bootloader with programmers like STK500 or USBtinyISP. Or even skip the bootloader and burn the arduino sketch directly to the mega168 chip bypassing the bootloader. This will make the chip start quicker (see arduino.cc website and the wolfpaulus link below for more info).
+You can also burn a bootloader with programmers like STK500 or USBtinyISP.
+
+Or even skip the bootloader and burn the arduino sketch directly to the atmega168 chip bypassing the bootloader. This will make the chip start quicker (see the wolfpaulus link below for more info).
+
+Advanced: With the STK500 and USBtinyISP programmers (unfortunately not with ArduinoISP as far as I can tell) you also have the option to use the internal chrystal on the atmega168 chip. This way you can make a really minimal arduino (again see the wolfpaulus link below).
 
 //--upload sketches with FTDI
 -----------------------------
@@ -77,3 +82,10 @@ Now we can upload sketches using small usb-to-serial ftdi adapters like <http://
 * <http://hlt.media.mit.edu/?p=1695>
 * <http://www.pighixxx.com/abc-arduino-basic-connections/>
 * <http://www.instructables.com/id/Use-Arduino-code-on-a-TI-Launchpad-MSP430/>
+
+//--extras
+----------
+* connect some leds with resistors to the pwm output pins and make them fade smoothly.
+* send back sensor data via serial to Arduino IDE serial monitor and PureData.
+* build a 5v power supply with one 7805, two 100nF capacitors and one 10uF electrolytic capacitor
+![5v](https://raw.github.com/redFrik/udk09-Bits_and_Pieces/master/udk130516/5v.png)
