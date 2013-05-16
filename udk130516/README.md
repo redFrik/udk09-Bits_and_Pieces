@@ -17,7 +17,7 @@ parts:
 * (led 5mm)
 * (1kohm resistor)
 
-This will also work with atmega328 and most of the tiny avr chips as well. But you will need to modify some things. See links below for more info.
+Advanced: This will also work with atmega328 and most of the tiny avr chips as well. But you will need to modify some things. See links below for more info.
 
 //--preparation for burning bootloader
 --------------------------------------
@@ -29,8 +29,8 @@ We will use a real arduino (maybe borrowed from a friend) to burn the bootloaded
 * connect arduino 11 to atmega168 pin 17 (mosi)
 * connect arduino 12 to atmega168 pin 18 (miso)
 * connect arduino 13 to atmega168 pin 19 (sck)
-* also connect atmega168 pins 9 and 10 to the chrystal and then via caps to ground
-* the reset pull-up resistor in the diagram you can skip
+* also connect atmega168 pins 9 and 10 to the chrystal and then via capacitors to ground
+* you can skip the 10K pull-up reset resistor in the diagram
 
 ![arduinoisp connections](https://raw.github.com/redFrik/udk09-Bits_and_Pieces/master/udk130516/IMG_20130516_042113.jpg)
 
@@ -70,7 +70,7 @@ Now we can upload sketches using small usb-to-serial ftdi adapters like <http://
 -------------
 * cheap alternative to an arduino
 * see <http://energia.nu>
-* note that you will need to flip around the tx and rx jumpers (see <https://github.com/energia/Energia/wiki/Hardware>)
+* note that you will need to flip around the tx and rx jumpers (see attached picture where it says RX and <https://github.com/energia/Energia/wiki/Hardware>)
 
 ![launchpad](https://raw.github.com/redFrik/udk09-Bits_and_Pieces/master/udk130516/IMG_20130516_044554.jpg)
 
