@@ -1,15 +1,13 @@
 udk-avprogramming 2013_SS
 =========================
 
-Olofsson: Audiovisual programming - bits and pieces
+Olofsson: Audiovisual programming - Bits and Pieces
 
 In this course we will make a new small project each week. The projects will be playful, interconnectable and reusable. And in the spirit of this semester's main topic _"Everything Is Deeply Intertwingled"_, all the projects as well as the course itself will interconnect well with the course Code Experiments run by Hoelzl + de Campo.
 
 The bits we will play with include sensors, cameras, speakers, LEDs, networks, Arduino, SuperCollider, PureData, Processing, Serial, OSC, MIDI. And the pieces include projects like making sound from light with an Arduino, controlling LEDs from SuperCollider, colour tracking with a webcam in PureData, controlling computers from remote with Terminal, sound detection and categorization with SuperCollider, MIDI hooked up to OpenGL graphics in Processing etc.
 
-* weekly, thu 14-16, room111
-* requirements for attending : none
-* requirements for Leistungsschein : attendance
+room111, UdK, medienhaus, kleistpark
 
 dates
 -----
