@@ -32,7 +32,7 @@ We will use a real arduino (maybe borrowed from a friend) to burn the bootloaded
 * also connect atmega168 pins 9 and 10 to the chrystal and then via caps to ground
 * the reset pull-up resistor you can skip
 
-![arduinoisp connections](https://github.com/redFrik/udk09-Bits_and_Pieces/blob/master/IMG_20130516_042113.jpg)
+![arduinoisp connections](https://github.com/redFrik/udk09-Bits_and_Pieces/blob/master/udk130516/IMG_20130516_042113.jpg)
 
 //--burn bootloader with an arduino
 -----------------------------------
@@ -59,7 +59,7 @@ Now we can upload sketches using small usb-to-serial ftdi adapters like <http://
 2. Make sure the board `Arduino NG or older w/ ATmega168` is selected under Tools/Board menu.
 3. Upload the Blink example for example.
 
-![ftdi connections](https://github.com/redFrik/udk09-Bits_and_Pieces/blob/master/IMG_20130516_042404.jpg)
+![ftdi connections](https://github.com/redFrik/udk09-Bits_and_Pieces/blob/master/udk130516/IMG_20130516_042404.jpg)
 
 //--launchpad
 -------------
