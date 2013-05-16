@@ -44,7 +44,7 @@ We will use a real arduino (maybe borrowed from a friend) to burn the bootloaded
 6. select 'Arduino as ISP' under Tools/Programmer.
 7. last 'Burn Bootloader' under Tools. It should take a little while and leds should be flashing during the process.
 
-If the serial port 'tty.usbserial-XXXXX' doesn't show up try installing the <http://www.ftdichip.com/Drivers/VCP.htm> (version 2.2.18 or later for mac (pick correct 32bit vs 64bit version of the driver)
+If the serial port 'tty.usbserial-XXXXX' doesn't show up try installing the <http://www.ftdichip.com/Drivers/VCP.htm> (version 2.2.18 or later for mac (pick correct 32bit vs 64bit version of the driver)).
 
 You can also burn a bootloader with programmers like STK500 or USBtinyISP.
 
@@ -70,16 +70,16 @@ Now we can upload sketches using small usb-to-serial ftdi adapters like <http://
 
 //--links
 ---------
-* <http://arduino.cc/en/Hacking/PinMapping168>
-* <http://www.yuriystoys.com/2012/02/arduino-on-beadboard-uploading-your.html>
-* <http://wolfpaulus.com/jounal/embedded/minimalarduino>
-* <http://hlt.media.mit.edu/?p=1695>
-* <http://www.pighixxx.com/abc-arduino-basic-connections/>
+* <http://arduino.cc/en/Hacking/PinMapping168> important for bare bone arduino!
+* <http://www.yuriystoys.com/2012/02/arduino-on-beadboard-uploading-your.html> very similar to what we just did
+* <http://wolfpaulus.com/jounal/embedded/minimalarduino> even more minimal arduino
+* <http://hlt.media.mit.edu/?p=1695> for using smaller and cheaper chip called attiny
+* <http://www.pighixxx.com/abc-arduino-basic-connections/> great resource for anyone working with arduino (download the pdf cards)
 
 //--launchpad
 -------------
 * cheap alternative to an arduino
-* see <http://energia.nu> and <http://www.exp-tech.de/Mainboards/MSP430-LaunchPad-Value-Line-Development-kit.html> sell them cheap.
+* see <http://energia.nu> and <http://www.exp-tech.de/Mainboards/MSP430-LaunchPad-Value-Line-Development-kit.html> sell them cheap (≈ €5).
 * just make sure you get version 1.5 or later.
 * note that you will need to flip around the tx and rx jumpers (see attached picture where it says RX and <https://github.com/energia/Energia/wiki/Hardware>)
 * <http://www.instructables.com/id/Use-Arduino-code-on-a-TI-Launchpad-MSP430/>
