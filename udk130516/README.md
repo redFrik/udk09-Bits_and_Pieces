@@ -65,6 +65,9 @@ Now we can upload sketches using small usb-to-serial ftdi adapters like <http://
 -------------
 * cheap alternative to an arduino
 * see <http://energia.nu>
+* note that you will need to flip around the tx and rx jumpers (see <https://github.com/energia/Energia/wiki/Hardware>)
+
+![launchpad](https://raw.github.com/redFrik/udk09-Bits_and_Pieces/master/udk130516/IMG_20130516_044554.jpg)
 
 //--links
 ---------
