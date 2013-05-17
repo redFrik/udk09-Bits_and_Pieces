@@ -12,7 +12,7 @@ parts:
 * atmega168
 * 16mhz chrystal
 * two 22pF cheramic capacitors
-* some wire
+* some jumper wires
 * usb-to-serial ftdi connector
 * (led 5mm)
 * (1kohm resistor)
@@ -72,6 +72,7 @@ Now we can upload sketches using small usb-to-serial ftdi adapters like <http://
 ---------
 * <http://arduino.cc/en/Hacking/PinMapping168> important for bare bone arduino!
 * <http://www.yuriystoys.com/2012/02/arduino-on-beadboard-uploading-your.html> very similar to what we just did
+* <http://pdp11.byethost12.com/AVR/ArduinoAsProgrammer.htm> and another more advanced tutorial
 * <http://wolfpaulus.com/jounal/embedded/minimalarduino> even more minimal arduino
 * <http://hlt.media.mit.edu/?p=1695> for using smaller and cheaper chip called attiny
 * <http://www.pighixxx.com/abc-arduino-basic-connections/> great resource for anyone working with arduino (download the pdf cards)
@@ -81,16 +82,16 @@ Now we can upload sketches using small usb-to-serial ftdi adapters like <http://
 * cheap alternative to an arduino
 * see <http://energia.nu> and <http://www.exp-tech.de/Mainboards/MSP430-LaunchPad-Value-Line-Development-kit.html> sell them cheap (≈ €5).
 * just make sure you get version 1.5 or later.
-* note that you will need to flip around the tx and rx jumpers (see attached picture where it says RX and <https://github.com/energia/Energia/wiki/Hardware>)
+* note that you will need to flip around the tx and rx jumpers (see attached picture where it says RXD and <https://github.com/energia/Energia/wiki/Hardware>)
 * <http://www.instructables.com/id/Use-Arduino-code-on-a-TI-Launchpad-MSP430/>
 
 ![launchpad](https://raw.github.com/redFrik/udk09-Bits_and_Pieces/master/udk130516/IMG_20130516_044554.jpg)
 
 //--extras
 ----------
-* connect some leds with resistors to the pwm output pins and make them fade smoothly.
-* send back sensor data via serial to Arduino IDE serial monitor and PureData.
-* build a 5v power supply with one 7805, two 100nF capacitors and one 10uF electrolytic capacitor
+* to try: connect some leds with resistors to the pwm output pins and make them fade smoothly.
+* to try: send back sensor data via serial to Arduino IDE serial monitor and PureData.
+* to try: build a 5v power supply with one 7805, two 100nF capacitors and one 10uF electrolytic capacitor
 ![5v](https://raw.github.com/redFrik/udk09-Bits_and_Pieces/master/udk130516/5v.png)
 
 Next week - bring motors, fans, leds and other stuff you'd like to control.
