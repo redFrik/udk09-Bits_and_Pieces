@@ -6,4 +6,10 @@ _controlling LEDs and motors from SuperCollider using the Arduino bare bone (usi
 //--connect the uln2803
 -----------------------
 
-<http://oomlout.com/8TRA/8TRA-Guide.pdf>
+//--links
+---------
+* <http://oomlout.com/8TRA/8TRA-Guide.pdf> about the uln2803
+
+//--extras
+----------
+* advanced - programming the atmega168 via sound card. see instructions and code in `extras/uploadingArduino.scd`
