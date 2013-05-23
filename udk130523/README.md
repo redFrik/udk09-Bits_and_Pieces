@@ -10,6 +10,10 @@ _controlling LEDs and motors from SuperCollider using the Arduino bare bone (usi
 * control the leds via serial with the `udkPwm.pd` puredata patch or the `udkPwm.scd` code.
 * try to connect one or two small dc motors instead of the leds (take care not to draw too much power)
 
+![udkPwm](https://raw.github.com/redFrik/udk09-Bits_and_Pieces/master/udk130523/udkPwm.png)
+
+![audioserial](https://raw.github.com/redFrik/udk09-Bits_and_Pieces/master/udk130523/extras/IMG_20130523_123834.jpg)
+
 //--pwm and serial
 ------------------
 stands for pulse width modulation. it is a way of controlling leds and motors with values from 0 to 255 (in this setup - might be different)
@@ -24,3 +28,5 @@ we are using the serial communication to send 8 values to control 6 pwm channels
 //--extras
 ----------
 * advanced - programming the atmega168 via sound card. see instructions and code in `extras/uploadingArduino.scd`
+
+![audioserial](https://raw.github.com/redFrik/udk09-Bits_and_Pieces/master/udk130523/extras/IMG_20130523_102501.jpg)
