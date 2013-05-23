@@ -12,7 +12,7 @@ _controlling LEDs and motors from SuperCollider using the Arduino bare bone (usi
 
 ![udkPwm](https://raw.github.com/redFrik/udk09-Bits_and_Pieces/master/udk130523/udkPwm.png)
 
-![audioserial](https://raw.github.com/redFrik/udk09-Bits_and_Pieces/master/udk130523/extras/IMG_20130523_123834.jpg)
+![uln2803a](https://raw.github.com/redFrik/udk09-Bits_and_Pieces/master/udk130523/IMG_20130523_123834.jpg)
 
 //--pwm and serial
 ------------------
