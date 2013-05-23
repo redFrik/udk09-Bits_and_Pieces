@@ -4,31 +4,31 @@
 #X text 118 343 then edit [comport] object to match index of arduino
 serialport;
 #X obj 150 -34 vsl 15 128 0 255 0 0 empty pwm0 empty 0 -9 0 10 -262144
--1 -1 2344 1;
+-1 -1 0 1;
 #X floatatom 150 101 5 0 255 0 - - -;
-#X obj -23 148 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1
+#X obj -23 148 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
 1;
 #X obj 100 228 pack 10 0 0 0 0 0 0 11;
 #X obj -23 168 metro 25;
 #X obj 186 -34 vsl 15 128 0 255 0 0 empty pwm1 empty 0 -9 0 10 -262144
--1 -1 1258 1;
+-1 -1 0 1;
 #X floatatom 186 101 5 0 255 0 - - -;
 #X obj 222 -34 vsl 15 128 0 255 0 0 empty pwm2 empty 0 -9 0 10 -262144
--1 -1 67 1;
+-1 -1 0 1;
 #X floatatom 222 101 5 0 255 0 - - -;
 #X obj 258 -34 vsl 15 128 0 255 0 0 empty pwm3 empty 0 -9 0 10 -262144
--1 -1 11903 1;
+-1 -1 0 1;
 #X floatatom 258 101 5 0 255 0 - - -;
 #X obj 294 -34 vsl 15 128 0 255 0 0 empty pwm4 empty 0 -9 0 10 -262144
--1 -1 10 1;
+-1 -1 0 1;
 #X floatatom 294 101 5 0 255 0 - - -;
 #X obj 330 -34 vsl 15 128 0 255 0 0 empty pwm5 empty 0 -9 0 10 -262144
--1 -1 3869 1;
+-1 -1 0 1;
 #X floatatom 330 101 5 0 255 0 - - -;
 #X text -53 119 start sending;
 #N canvas 130 512 1010 338 cycle 0;
 #X obj 30 162 sin;
-#X obj 192 -36 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1
+#X obj 192 -36 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
 1;
 #X obj 30 117 f;
 #X obj 192 14 t b b b b b b;
@@ -133,7 +133,7 @@ serialport;
 #X connect 39 0 32 0;
 #X connect 40 0 3 0;
 #X restore 474 71 pd cycle;
-#X text 371 -21 control manually by dragging the sliders;
+#X text 374 -13 control manually by dragging the sliders;
 #X text 408 15 or open subpatches cycle or audio for automation;
 #N canvas 130 512 820 379 audio 0;
 #X obj 192 -36 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
@@ -188,6 +188,7 @@ serialport;
 #X obj 193 197 int;
 #X obj 218 197 int;
 #X obj 243 197 int;
+#X text 374 -33 use with arduino sketch udkPwm;
 #X connect 0 0 23 0;
 #X connect 3 0 4 0;
 #X connect 4 0 24 0;

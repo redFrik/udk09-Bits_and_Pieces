@@ -3,12 +3,23 @@
 
 _controlling LEDs and motors from SuperCollider using the Arduino bare bone (using uln2803 as a driver + try small motors)_
 
-//--connect the uln2803
+//--uln2803
 -----------------------
+* see file `udkPwm.png` and connect a uln2803a to the arduino bare bone with 6 leds.
+* upload the sketch `udkPwm.ino` to the arduino using a usb-to-serial (ftdi chip) adapter.
+* control the leds via serial with the `udkPwm.pd` puredata patch or the `udkPwm.scd` code.
+* try to connect one or two small dc motors instead of the leds (take care not to draw too much power)
+
+//--pwm and serial
+------------------
+stands for pulse width modulation. it is a way of controlling leds and motors with values from 0 to 255 (in this setup - might be different)
+we are using the serial communication to send 8 values to control 6 pwm channels (6 pwm pins).  there is a start (10) and a stop number (11) in our protocol.
 
 //--links
 ---------
 * <http://oomlout.com/8TRA/8TRA-Guide.pdf> about the uln2803
+* <http://fritzing.org> free software for drawing circuit diagrams - includes lots of examples.
+* <http://www.pighixxx.com/abc-arduino-basic-connections/> download pdf cards to learn more how to connect things to arduino
 
 //--extras
 ----------

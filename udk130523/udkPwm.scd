@@ -1,3 +1,4 @@
+//--use with arduino sketch udkPwm
 
 //SerialPort.listDevices;	//run this and see post window for name of serial device
 
@@ -86,7 +87,7 @@ OSCFunc({|msg|
 s.waitForBoot{
 	SynthDef(\pwm, {|rate= 30|
 		var src= SoundIn.ar;
-		var amp= Amplitude.kr(src).lincurve(0, 1, 0, 255, -3);
+		var amp= Amplitude.kr(src).lincurve(0, 1, -1, 255, -3).clip(0, 255);
 		var data= [amp.lag(3.2), amp.lag(1.6), amp.lag(0.8), amp.lag(0.4), amp.lag(0.2), amp.lag(0.1)];
 		SendReply.kr(Impulse.kr(rate), '/pwm', data);
 	}).add;
