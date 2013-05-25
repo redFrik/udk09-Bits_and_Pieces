@@ -15,7 +15,7 @@ dates
 - [x] [02may](https://github.com/redFrik/udk09-Bits_and_Pieces/tree/master/udk130502): MIDI from MaxMSP or PureData hooked up to OpenGL graphics in Processing
 - [x] 09may: **NO CLASS** (holiday)
 - [x] [16may](https://github.com/redFrik/udk09-Bits_and_Pieces/tree/master/udk130516): building an Arduino bare bone (+ try LaunchPad with Energia as a cheap alternative)
-- [ ] 23may: controlling LEDs and motors from SuperCollider using the Arduino bare bone (using uln2803 as a driver + try small motors)
+- [x] 23may: controlling LEDs and motors from SuperCollider using the Arduino bare bone (using uln2803 as a driver + try small motors)
 - [ ] 30may: making sound from light with an Arduino (analog inputs, smoothing data, 1bit music)
 - [ ] 06jun: take different sensors and log/share data online (Cosm etc)
 - [ ] 13jun: controlling computers from remote with Terminal (simple terminal commands and telnet, ssh, ftp)
