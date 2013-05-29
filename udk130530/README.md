@@ -32,6 +32,7 @@ With the analogRead() method you get a number from 0 to 1023 that matches this v
 * try to change the places of the resistor and the ldr. What happens?
 * upload `analogInOut_serial` and look at the values in serial monitor.
 * calibrate by changing 2nd and 3rd value in map()
+* upload `smoothing` and check out how to make sensor readings less noisy.
 
 ![udkPwm](https://raw.github.com/redFrik/udk09-Bits_and_Pieces/master/udk130530/IMG_20130529_131247.jpg)
 
@@ -41,15 +42,16 @@ With the analogRead() method you get a number from 0 to 1023 that matches this v
 
 //--connect a speaker
 ---------------------
-* find a speaker and connect it with a 100ohm resistor. see file `speaker_schem.png`
+* find a speaker and connect it with a 100ohm resistor. see file `speaker_schem.png`.
+* upload the `speaker00` sketch and play with the ldr to change the pitch of the sound.
+* upload the `speaker01` sketch and change the code.
+* upload the `speaker02` sketch, connect a pot and make noise. Try connecting to big speakers via a mixer.
 
 ![udkPwm](https://raw.github.com/redFrik/udk09-Bits_and_Pieces/master/udk130530/speaker_schem.png)
 
 ![udkPwm](https://raw.github.com/redFrik/udk09-Bits_and_Pieces/master/udk130530/IMG_20130529_132937.jpg)
 
-//--make some noise
--------------------
-
+* extra: again try replacing the led with a small dc motor or server motor to make it play along.
 
 //--links
 ---------
