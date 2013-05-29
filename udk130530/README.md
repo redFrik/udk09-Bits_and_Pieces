@@ -5,8 +5,8 @@ _making sound from light with an Arduino (analog inputs, smoothing data, 1bit mu
 
 //--voltage dividers
 --------------------
-* look at `voltage_divider.png`
-* try to measure the resistance of a potentiometer (pot) and then a photocell (ldr)
+* look at `voltage_divider.png`.
+* try to measure the resistance of a potentiometer (pot) and then a photocell (ldr).
 * connect 5v and gnd to the outer legs of a pot and measure voltage between the middle leg and gnd.
 * if you swap 5v and gnd it does not matter much. It will just flip the direction of the pot.
 
@@ -22,6 +22,8 @@ With the analogRead() method you get a number from 0 to 1023 that matches this v
 * make sure you have a resistor and one led connected to the first uln2803 output (pin 20 of the uln2803).
 * the led should now be controlled (dimmed) by the potentiometer.
 
+![udkPwm](https://raw.github.com/redFrik/udk09-Bits_and_Pieces/master/udk130530/IMG_20130529_131045.jpg)
+
 //--read ldr sensor
 -------------------
 * replace the pot with a ldr + 10k resistor. See `ldr_schem.png`.
@@ -31,6 +33,8 @@ With the analogRead() method you get a number from 0 to 1023 that matches this v
 * upload `analogInOut_serial` and look at the values in serial monitor.
 * calibrate by changing 2nd and 3rd value in map()
 
+![udkPwm](https://raw.github.com/redFrik/udk09-Bits_and_Pieces/master/udk130530/IMG_20130529_131247.jpg)
+
 * extra: try replacing the led with a small dc motor or server motor.
 
 ![udkPwm](https://raw.github.com/redFrik/udk09-Bits_and_Pieces/master/udk130530/ldr_schem.png)
@@ -38,6 +42,10 @@ With the analogRead() method you get a number from 0 to 1023 that matches this v
 //--connect a speaker
 ---------------------
 * find a speaker and connect it with a 100ohm resistor. see file `speaker_schem.png`
+
+![udkPwm](https://raw.github.com/redFrik/udk09-Bits_and_Pieces/master/udk130530/speaker_schem.png)
+
+![udkPwm](https://raw.github.com/redFrik/udk09-Bits_and_Pieces/master/udk130530/IMG_20130529_132937.jpg)
 
 //--make some noise
 -------------------
@@ -51,5 +59,3 @@ With the analogRead() method you get a number from 0 to 1023 that matches this v
 //--extras
 ----------
 * advanced - upload the monijonsyn code from <http://www.fredrikolofsson.com/f0blog/?q=node/161> and connect 3 pots and 1 button or replace the pots with 3 ldrs.
-
-![udkPwm](https://raw.github.com/redFrik/udk09-Bits_and_Pieces/master/udk130523/udkPwm.png)
