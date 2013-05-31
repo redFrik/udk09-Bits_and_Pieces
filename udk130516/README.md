@@ -64,7 +64,9 @@ Now we can upload sketches using small usb-to-serial ftdi adapters like <http://
 
 1. Connect the ftdi-chip and select its port under Tools/SerialPort.
 2. Make sure the board `Arduino NG or older w/ ATmega168` is selected under Tools/Board menu.
-3. Upload the Blink example for example.
+3. Reset the board by unplugging/pluggin the usb power and upload a sketch. For example the Blink example found under menu File/Examples/01.Basics.
+
+Note that you should always first reset the bare bone arduino by toggling power and then click upload sketch in the ArduinoIDE. You have about 10 seconds after reset to upload a sketch.
 
 ![ftdi connections](https://raw.github.com/redFrik/udk09-Bits_and_Pieces/master/udk130516/IMG_20130516_042404.jpg)
 
