@@ -52,8 +52,8 @@ posting data from an arduino via processing
 * edit the 'Write API Key' and replace it with your own
 * run the sketch and values should be updated once every 15 sec over at your thingspeak channel
 
-//--extra (advanced)
---------------------
+//--php (advanced)
+------------------
 setting up a website with php scripts and a mysql database
 * create an account at http://en.altervista.org
 * log in and go to altersite / database and create a database
@@ -62,14 +62,12 @@ setting up a website with php scripts and a mysql database
 * create a new table with 4 fields. call them freq, amp, rate, time
 * for freq, amp and rate set type to `FLOAT`
 * for time set type to `DATETIME` and index to `primary`
-
 * edit the file `advanced-write.php` where it says 'edit your data here'
 * edit the file `advanced-read.php` where it says 'edit your data here'
 * upload these php files to your site
 * edit the file `advanced.py` and put in your own host (host should point to where the php files are)
 * open terminal and test to write values to the database with: `python advanced.py 404 0.3 0.2`
 * check in phpmyadmin that the three values showed up
-
 * visit your host+advanced-read.php to see the data. e.g. <http://redfrik.altervista.org/advanced-read.php>
 
 //--links
@@ -88,7 +86,7 @@ setting up a website with php scripts and a mysql database
 * <https://github.com/ericbenwa/POST-Arduino-Data-Wireless>
 * <https://github.com/billroy/arduino-redis-datalogger>
 
-//--advanced
-------------
+//--extras
+----------
 * do port forwarding on your home router
 * get a dedicated VPS server and install rrdtool
