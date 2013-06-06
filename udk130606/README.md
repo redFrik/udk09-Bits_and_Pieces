@@ -14,9 +14,8 @@ posting data from supercollider to thingspeak
 * go to <https://www.thingspeak.com> and sign up
 * create a new channel
 * call it something and make it public
-* name the fields 1-3: freq, amp, rate
+* name the fields 1-3 freq, amp, rate
 * copy your own 'Write API Key' under API Keys. it should look something like this... ANK3NL2O5IUXFWM1
-
 * open the file scThingSpeak.scd in supercollider
 * paste your own 'Write API Key' into the document where it says 'setup key'
 * run the code and play with the different settings. your data should be plotted in realtime at thingspeak
@@ -43,9 +42,8 @@ posting data from an arduino via processing
 * go to <https://www.thingspeak.com> and sign up
 * create a new channel
 * call it something and make it public
-* name the fields 1-3: freq, amp, rate
+* name the fields 1-3 freq, amp, rate
 * copy your own 'Write API Key' under API Keys. it should look something like this... ANK3NL2O5IUXFWM1
-
 * connect 3 sensors and load the analogReadThreeSensors sketch onto an arduino
 * open the processingThingSpeak sketch in processing (2.0)
 * edit the serial port (default is 10 - change this number)
