@@ -16,7 +16,7 @@ posting data from supercollider to thingspeak
 * call it something and make it public
 * name the fields 1-3 freq, amp, rate
 * copy your own 'Write API Key' under API Keys. it should look something like this... ANK3NL2O5IUXFWM1
-* open the file scThingSpeak.scd in supercollider
+* open the file `scThingSpeak.scd` in supercollider
 * paste your own 'Write API Key' into the document where it says 'setup key'
 * run the code and play with the different settings. your data should be plotted in realtime at thingspeak
 
@@ -33,7 +33,7 @@ reading data back from thingspeak into supercollider
 * first do all the steps in thingspeak1 above (or thingspeak2 if you want to use an arduino with sensors)
 * then open the terminal, cd to the folder thingspeak3 and type `python scThingSpeak3.py 6123` but replace 6123 with your own channel number
 * the python program should start posting lines like `200 OK` and `701.0 0.7 0.47`
-* open sc and the file scThingSpeak3.scd
+* open sc and the file `scThingSpeak3.scd`
 * start the routine then use the three variables `~freq`, `~amp`, `~rate` for something
 
 //--processing (easy)
