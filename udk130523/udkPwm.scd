@@ -80,7 +80,7 @@ var name= "/dev/tty.usbserial-A4011364";	//edit to match your serial device
 var port= SerialPort(name, 38400, crtscts: true);
 OSCFunc({|msg|
 	var pwm;
-	//cmd.postln;	//debug
+	//msg.postln;	//debug
 	pwm= [10]++msg[3..8].round++[11];
 	port.putAll(pwm);
 }, "/pwm");
