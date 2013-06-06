@@ -74,19 +74,19 @@ setting up a website with php scripts and a mysql database
 
 //--links
 ---------
-<http://ksduino.org/>
-<http://exosite.com>
-<https://xively.com> (previously cosm / pachube)
-<http://www.nimbits.com>
-<http://paraimpu.crs4.it>
-<http://tempo-db.com>
-<http://open.sen.se>
-<http://emoncms.org>
-<http://www.etherios.com/products/devicecloud/>
-<https://www.temboo.com>
-<http://make.larsi.org/WeatherStation/download/Processing/ThingSpeak/ThingSpeak.pde>
-<https://github.com/ericbenwa/POST-Arduino-Data-Wireless>
-<https://github.com/billroy/arduino-redis-datalogger>
+* <http://ksduino.org/>
+* <http://exosite.com>
+* <https://xively.com> (previously cosm / pachube)
+* <http://www.nimbits.com>
+* <http://paraimpu.crs4.it>
+* <http://tempo-db.com>
+* <http://open.sen.se>
+* <http://emoncms.org>
+* <http://www.etherios.com/products/devicecloud/>
+* <https://www.temboo.com>
+* <http://make.larsi.org/WeatherStation/download/Processing/ThingSpeak/ThingSpeak.pde>
+* <https://github.com/ericbenwa/POST-Arduino-Data-Wireless>
+* <https://github.com/billroy/arduino-redis-datalogger>
 
 //--advanced
 ------------
