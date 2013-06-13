@@ -5,8 +5,8 @@ _controlling computers from remote with Terminal (simple terminal commands and t
 
 //--terminal
 ------------
-* on mac osx the Terminal program is found in /Applications/Utilities/
-* test some simple commands like `cd`, `ls`, `ls -la`, `pwd`, `cp`, `mkdir`, `touch`, `man`
+* on mac osx the Terminal program is found in the folder /Applications/Utilities/
+* open Terminal and test some simple commands like `cd`, `ls`, `ls -la`, `pwd`, `cp`, `mkdir`, `touch`, `man`
 * other useful commands/programs: `pico`, `top`, `kill`, `file`, `ping`
 * see <http://ss64.com/osx/>
 * up / down arrow = command history.
@@ -43,7 +43,7 @@ stands for File Transfer Protocol. very useful for up/downloading files. there i
 
 //--ssh
 -------
-stands for Secure SHell and is another very used standard for remote control of computers.
+stands for Secure SHell and is another very used standard for remote control of computers. it's very useful if you need to maintain or monitor computers in an installation. if the installation is running on a separate computer i often use ssh to upgrade the software or even develop and write the code for the installation from my own laptop. this way i don't need a screen+keyboard connected. very useful if the installation computer is embedded somewhere and hard to access.
 * type in terminal `ssh 127.0.0.1` (or `ssh localhost` - it means the same)
 * now you probably will see `ssh: connect to host localhost port 22: Connection refused`. that means ssh isn't activated on your computer. go to system preferences / sharing and activate "remote login".
 * repeat the `ssh 127.0.0.1` and this time you should get a question about authenticity. answer yes.
@@ -68,11 +68,15 @@ to make ssh work on your own internet connection at home, you'll need to set up 
 
 //--vnc
 -------
-a.k.a. screensharing. probably the best way to remote control computers. vnc is built in to osx, but sometimes you might need additional programs like chicken or realvns (connecting to linux computers like beaglebone black for instance).
+a.k.a. screensharing. probably the best way to remote control computers. vnc is built in to osx, but sometimes you might need additional programs like chicken or realvns (when connecting to linux computers like beaglebone black for instance).
+very useful for maintaining and coding on installations (computers in an installation) from your laptop.
+
+* download and install chicken from <http://sourceforge.net/projects/chicken/>
+* open and create new connection to `92.229.62.95` on port 1
+* you should see the desktop of my raspberry pi computer running in my house. feel free to play around a little.
 
 //--links
 ---------
 * <http://www.telnet.org/htm/places.htm>
 * <http://gettingstartedwithraspberrypi.tumblr.com/post/29988200199/ssh>
-* <http://sourceforge.net/projects/chicken/>
 * <http://www.realvnc.com/products/>
