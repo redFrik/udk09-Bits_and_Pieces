@@ -53,7 +53,7 @@ stands for Secure SHell and is another often used standard for remote control of
 //--ssh on my rpi
 -----------------
 * now try to connect to my Raspberry Pi that is connected to my home router in my house. the details are (temporarily for today only) `ssh pi@92.229.62.95` and password `raspberry`. note: i will remove this after this seminar so it will only work in class.
-* when logged in type `users` to see which users are logged in. probably many pi users as we all use the same name
+* when logged in type `users` to see which users are logged in. probably many pi users as we all use the same name. you can also type `who` to get a more detailed list with ip addresses of the users currently logged in (thanks Philipp).
 * browse around and see what happens. experiment. create some files (`mkdir`, `touch`, `pico`), download files others made (`scp`).
 * open a new terminal window and type: `scp pi@92.229.62.95:/home/pi/test/udkSSHtest.txt ~/Documents/` to copy the file udkSSHtest.txt to your documents folder.
 
@@ -62,19 +62,19 @@ stands for Secure SHell and is another often used standard for remote control of
 instead of an IP address you can register a domain name and have that point to your home router. for example <https://www.noip.com> provides free account.
 so to do the same as above but with my free dyndns try `ssh pi@redfrik.no-ip.biz`. the domain name redfrik.no-ip.biz will be translated to ip 92.229.62.95 or whatever ip my router is using in the future. many routers have a setting for dyndns and you can then enter your noip.com information there.
 
-to make ssh work on your own internet connection at home, you'll need to set up something called port forwarding on your router. it should look something like this...
+to make ssh work on your own internet connection at home, you'll need to set up something called port forwarding on your router. it should look something like this (for ssh and vnc access)...
 
 ![homeRouterSettings](https://raw.github.com/redFrik/udk09-Bits_and_Pieces/master/udk130613/home_router_settings.png)
 
 //--vnc
 -------
-a.k.a. screensharing. probably the best way to remote control computers. vnc is built in to osx, but sometimes you might need additional programs like chicken or realvns (when connecting to linux computers like beaglebone black for instance).
-very useful for maintaining and coding on installations (computers in an installation) from your laptop.
+a.k.a. screensharing. probably the best way to remote control computers. (but it also requires a lot of bandwidth and cpu). vnc is built in to osx, but sometimes you might need additional programs like chicken or realvns (when connecting to linux computers like beaglebone black for instance).
+very useful for maintaining and writing code on computers in an installation from your laptop.
 
 * try to enable screen sharing on your on computer. it's under system preferences / sharing.
 * log in to your own computer from someone's machine.
 * download and install chicken from <http://sourceforge.net/projects/chicken/>
-* open and create new connection to `92.229.62.95` on port 1
+* open and create new connection to `92.229.62.95` on port 1 (that's my raspberry pi at home - this is temporary set up to do vnc and will only work today in class)
 * you should see the desktop of my raspberry pi computer running in my house. feel free to play around a little.
 
 ![homeRaspberryPi](https://raw.github.com/redFrik/udk09-Bits_and_Pieces/master/udk130613/rpi_at_home.jpg)
