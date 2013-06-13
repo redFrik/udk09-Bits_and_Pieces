@@ -43,7 +43,7 @@ stands for File Transfer Protocol. very useful for up/downloading files. there i
 
 //--ssh
 -------
-stands for Secure SHell and is another often used standard for remote control of computers. it's very useful if you need to maintain or monitor computers in an installation. if the installation is running on a separate computer i often use ssh to upgrade the software or even develop and write the code for the installation from my own laptop. this way i don't need a screen+keyboard connected. very useful if the installation computer is embedded somewhere and hard to access.
+stands for Secure SHell and is another often used standard for remote control of computers. it's very useful if you need to maintain or monitor computers in an installation. if the installation is running on a separate computer i often use ssh to upgrade the software or even develop and write the code for the installation from my own laptop. this way i don't need a screen+keyboard connected. very practical if the installation computer is embedded somewhere and hard to access - maybe mounted under or inside something.
 * type in terminal `ssh 127.0.0.1` (or `ssh localhost` - it means the same)
 * now you probably will see `ssh: connect to host localhost port 22: Connection refused`. that means ssh isn't activated on your computer. go to system preferences / sharing and activate "remote login".
 * repeat the `ssh 127.0.0.1` and this time you should get a question about authenticity. answer yes.
