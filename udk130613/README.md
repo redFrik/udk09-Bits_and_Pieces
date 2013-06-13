@@ -77,6 +77,8 @@ very useful for maintaining and coding on installations (computers in an install
 * open and create new connection to `92.229.62.95` on port 1
 * you should see the desktop of my raspberry pi computer running in my house. feel free to play around a little.
 
+![homeRaspberryPi](https://raw.github.com/redFrik/udk09-Bits_and_Pieces/master/udk130613/rpi_at_home.jpg)
+
 //--links
 ---------
 * <http://www.telnet.org/htm/places.htm>
