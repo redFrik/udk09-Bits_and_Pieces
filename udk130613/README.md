@@ -71,6 +71,8 @@ to make ssh work on your own internet connection at home, you'll need to set up 
 a.k.a. screensharing. probably the best way to remote control computers. vnc is built in to osx, but sometimes you might need additional programs like chicken or realvns (when connecting to linux computers like beaglebone black for instance).
 very useful for maintaining and coding on installations (computers in an installation) from your laptop.
 
+* try to enable screen sharing on your on computer. it's under system preferences / sharing.
+* log in to your own computer from someone's machine.
 * download and install chicken from <http://sourceforge.net/projects/chicken/>
 * open and create new connection to `92.229.62.95` on port 1
 * you should see the desktop of my raspberry pi computer running in my house. feel free to play around a little.
@@ -80,3 +82,4 @@ very useful for maintaining and coding on installations (computers in an install
 * <http://www.telnet.org/htm/places.htm>
 * <http://gettingstartedwithraspberrypi.tumblr.com/post/29988200199/ssh>
 * <http://www.realvnc.com/products/>
+* <http://learn.adafruit.com/adafruit-raspberry-pi-lesson-7-remote-control-with-vnc/overview>
