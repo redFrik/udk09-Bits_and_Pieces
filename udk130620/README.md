@@ -68,23 +68,25 @@ _record and arrange sound with audacity + speaker/mic feedback (small batterypow
 * download and install soundflower from <http://code.google.com/p/soundflower/> (version 1.6.6b)
 * after computer restart, open system preferences and select `Soundflower (2ch)` as audio output device.
 * start supercollider and boot the server.
-* double check that the post window says...
-<code>
-"Soundflower (2ch)" Output Device
-   Streams: 1
-      0  channels 2
-</code>
-* make some sound in sc. e.g. <code>{SinOsc.ar([400, 404])}.play</code>. note that you will not hear anything.
+* double check that the post window says: <code>"Soundflower (2ch)" Output Device</code>
+* make some sound in sc. e.g. <code>{SinOsc.ar([400, 404])}.play</code>. note that you will not hear anything at first.
 * start audacity and select `Soundflower (2ch)` as the input device.
 * record a few seconds. you should see the level meters move and the waveform being drawn as the recording happens.
-* play it back to hear it.
+* play the recording back to hear it.
 
-* to hear the sound coming from sc, you'll need to start the program Soundflowerbed. find it in `/Applications/Soundflower/`.
-* find the soundflowerbed menu at the top of the screen and select `Built-in Output` under soundflower (2ch). the sound from sc should start.
+* to hear the direct sound coming from sc and not only after it is recorded, you'll need to start the program Soundflowerbed under `/Applications/Soundflower/`.
+* find the soundflowerbed menu icon at the top of the screen and select `Built-in Output` under `Soundflower (2ch)`. the sound from sc should start.
 
 ![soundflowerbed](https://raw.github.com/redFrik/udk09-Bits_and_Pieces/master/udk130620/soundflowerbed.png)
+
+//--piezo
+you can buy them in different sizes at for instance <http://www.segor.de>. the bigger ones are better for lower frequencies (obviously).
+* <http://scacinto.wordpress.com/2012/12/03/how-to-make-contact-mics/> (good idea with alligator clips)
+* <http://christian.liljedahl.dk/guides/noise-free-piezo-microphone> (balanced piezos)
+* <http://makezine.com/2011/12/20/collins-lab-diy-contact-mic/> (with preamp)
 
 //--extras
 ----------
 * find some ladspa plugins and install <http://gaclrecords.org.uk/swh-plugins-mac-0.4.15.zip>. extract and put in `/Library/Audio/Plug-Ins/LADSPA`.
 * install scau (supercollider audio unit)
+* install jackosx and play with routing sound between applications. i recommend to use qjackctl instead of JackPilot to do the connections.
