@@ -80,10 +80,16 @@ _record and arrange sound with audacity + speaker/mic feedback (small batterypow
 ![soundflowerbed](https://raw.github.com/redFrik/udk09-Bits_and_Pieces/master/udk130620/soundflowerbed.png)
 
 //--piezo
-you can buy them in different sizes at for instance <http://www.segor.de>. the bigger ones are better for lower frequencies (obviously).
+---------
+contact mics. you can buy them in different sizes at for instance <http://www.segor.de>. the bigger ones are better for lower frequencies (obviously).
 * <http://scacinto.wordpress.com/2012/12/03/how-to-make-contact-mics/> (good idea with alligator clips)
 * <http://christian.liljedahl.dk/guides/noise-free-piezo-microphone> (balanced piezos)
 * <http://makezine.com/2011/12/20/collins-lab-diy-contact-mic/> (with preamp)
+
+//--electret
+------------
+small and often cheap microphone capsules.
+* <http://en.wikipedia.org/wiki/Electret_microphone>
 
 //--extras
 ----------
