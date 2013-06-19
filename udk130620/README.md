@@ -27,5 +27,14 @@ _record and arrange sound with audacity + speaker/mic feedback (small batterypow
 ![audacity03](https://raw.github.com/redFrik/udk09-Bits_and_Pieces/master/udk130620/audacity03.png)
 
 * mark everything (cmd+a) and select mix&render under the tracks menu.
-* last hold down shift and click the green play button. the sound should now loop without any click.
+* hold down shift and click the green play button. the sound should now loop without any click.
 ![audacity04](https://raw.github.com/redFrik/udk09-Bits_and_Pieces/master/udk130620/audacity04.png)
+
+* again mark everything (cmd+a) and select effect / paulstretch.
+* listen to the result.
+* repeat the effect once more (cmd+r).
+* again listen to the result.
+* if you used the default paulstretch settings you should now have a approximately 7min long drone.
+* mine sounds like this... <https://raw.github.com/redFrik/udk09-Bits_and_Pieces/master/udk130620/audacity.mp3>
+
+* record and make new drones with the same technique. try noise by blowing into the mic, play with paper, whistle etc.
