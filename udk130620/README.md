@@ -85,11 +85,20 @@ contact mics. you can buy them in different sizes at for instance <http://www.se
 * <http://scacinto.wordpress.com/2012/12/03/how-to-make-contact-mics/> (good idea with alligator clips)
 * <http://christian.liljedahl.dk/guides/noise-free-piezo-microphone> (balanced piezos)
 * <http://makezine.com/2011/12/20/collins-lab-diy-contact-mic/> (with preamp)
+* <http://www.youtube.com/watch?v=P8iAshJ1Pk0>
+* <http://www.youtube.com/watch?v=8fXl67zGZlo>
 
 //--electret
 ------------
-small and often cheap microphone capsules.
+small and cheap microphone capsules.
 * <http://en.wikipedia.org/wiki/Electret_microphone>
+* <http://www.youtube.com/watch?v=LycH4cXgx7Q>
+
+//--tapeheads
+-------------
+found in old walkmans.
+* <http://www.youtube.com/watch?v=tWQM6Rftzo4>
+* <http://hackaday.com/2012/04/18/reading-credit-cards-with-a-tape-head/>
 
 //--extras
 ----------
