@@ -42,16 +42,20 @@ _record and arrange sound with audacity + speaker/mic feedback (small batterypow
 * if you used the default paulstretch settings and ran the effect twice, you should now have a approximately 7min long drone.
 * mine sounds like this... <https://raw.github.com/redFrik/udk09-Bits_and_Pieces/master/udk130620/audacity.mp3>
 
+//--assignment
+--------------
 * make new tracks and record new drones with the same technique. try noise by blowing into the mic, play with paper, whistle etc.
 
 //--additional tricks
-* look at the mixer window.
+---------------------
+* make multiple tracks and then look at the mixer window.
 * learn the shortcuts of mark-to-end (shift+k) and mark-to-beginning (shift+j).
 * play around with the zoom tool and use shift to zoom out, cmd+f and shift+cmd+f to fit to window.
 * adjust volume with the envelope tool.
 * try the spectrogram and the other features in the small track menu on the left side.
 
 //--pitch analysis
+------------------
 * record some 'aaaaa' again.
 * mark a second of sound.
 * select analysis / plot spectrum.
@@ -59,6 +63,11 @@ _record and arrange sound with audacity + speaker/mic feedback (small batterypow
 * put the cursor under the highest peak and read the frequency in the lower left corner (e.g. 163Hz).
 * try if this is the correct pitch (e.g. in supercollider <code>{SinOsc.ar(163)}.play</code>
 
+//--routing audio
+-----------------
+* download and install soundflower from <http://code.google.com/p/soundflower/> (version 1.6.6b)
+
 //--extras
 ----------
+* find some ladspa plugins and install <http://gaclrecords.org.uk/swh-plugins-mac-0.4.15.zip>. extract and put in `/Library/Audio/Plug-Ins/LADSPA`.
 * install scau (supercollider audio unit)
