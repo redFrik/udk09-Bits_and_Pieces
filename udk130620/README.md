@@ -5,8 +5,10 @@ _record and arrange sound with audacity + speaker/mic feedback (small batterypow
 
 //--audacity
 ------------
-* download and install from <http://audacity.sourceforge.net> (version 2.0.3)
+* download and install from <http://audacity.sourceforge.net> (version 2.0.3).
+* select internal mic as audio input.
+* say 'aaaaaaa' and record your voice for approximately 5 seconds.
+* select effect / normalize.
+* hold down shift and click the green play button. the sound should loop with a click every 5sec.
 
-
-
-![homeRaspberryPi](https://raw.github.com/redFrik/udk09-Bits_and_Pieces/master/udk130613/rpi_at_home.jpg)
+![homeRaspberryPi](https://raw.github.com/redFrik/udk09-Bits_and_Pieces/master/udk130620/audacity00.png)
