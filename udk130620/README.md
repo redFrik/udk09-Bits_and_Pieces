@@ -66,6 +66,23 @@ _record and arrange sound with audacity + speaker/mic feedback (small batterypow
 //--routing audio
 -----------------
 * download and install soundflower from <http://code.google.com/p/soundflower/> (version 1.6.6b)
+* after computer restart, open system preferences and select `Soundflower (2ch)` as audio output device.
+* start supercollider and boot the server.
+* double check that the post window says...
+<code>
+"Soundflower (2ch)" Output Device
+   Streams: 1
+      0  channels 2
+</code>
+* make some sound in sc. e.g. <code>{SinOsc.ar([400, 404])}.play</code>. note that you will not hear anything.
+* start audacity and select `Soundflower (2ch)` as the input device.
+* record a few seconds. you should see the level meters move and the waveform being drawn as the recording happens.
+* play it back to hear it.
+
+* to hear the sound coming from sc, you'll need to start the program Soundflowerbed. find it in `/Applications/Soundflower/`.
+* find the soundflowerbed menu at the top of the screen and select `Built-in Output` under soundflower (2ch). the sound from sc should start.
+
+![soundflowerbed](https://raw.github.com/redFrik/udk09-Bits_and_Pieces/master/udk130620/soundflowerbed.png)
 
 //--extras
 ----------
