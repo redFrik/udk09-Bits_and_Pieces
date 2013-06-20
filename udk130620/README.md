@@ -90,9 +90,11 @@ contact mics. you can buy them in different sizes at for instance <http://www.se
 
 //--electret
 ------------
-small and cheap microphone capsules.
+small and cheap microphone capsules. requires power (battery from around 3v to 9v).
 * <http://en.wikipedia.org/wiki/Electret_microphone>
 * <http://www.youtube.com/watch?v=LycH4cXgx7Q>
+
+![electret](https://raw.github.com/redFrik/udk09-Bits_and_Pieces/master/udk130620/electret_mic_power_schem.png)
 
 //--tapeheads
 -------------
