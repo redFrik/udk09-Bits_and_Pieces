@@ -19,7 +19,7 @@ dates
 - [x] [30may](https://github.com/redFrik/udk09-Bits_and_Pieces/tree/master/udk130530): making sound from light with an Arduino (analog inputs, smoothing data, 1bit music)
 - [x] [06jun](https://github.com/redFrik/udk09-Bits_and_Pieces/tree/master/udk130606): take different sensors and log/share data online (ThingSpeak etc) (NOTE: this week in room 213 or 214)
 - [x] [13jun](https://github.com/redFrik/udk09-Bits_and_Pieces/tree/master/udk130613): controlling computers from remote with Terminal (simple terminal commands and telnet, ssh, ftp)
-- [ ] [20jun](https://github.com/redFrik/udk09-Bits_and_Pieces/tree/master/udk130620): record and arrange sound with audacity + speaker/mic feedback (small batterypowered speakers, piezos, electretmics)
+- [x] [20jun](https://github.com/redFrik/udk09-Bits_and_Pieces/tree/master/udk130620): record and arrange sound with audacity + speaker/mic feedback (small batterypowered speakers, piezos, electretmics)
 - [ ] 27jun: building a general purpose preamp for electretmic/linein (+ try recording and live effects in SuperCollider)
 - [ ] 04jul: build the micronoise evil sounding battery driven circuit
 - [ ] 11jul: sound detection and categorization with SuperCollider sends out osc to MaxMSP/PureData (pitch, amplitude, onsets, centroid)
