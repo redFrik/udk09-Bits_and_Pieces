@@ -1,7 +1,7 @@
 130620
 ======
 
-_record and arrange sound with audacity + speaker/mic feedback (small batterypowered speakers, piezos, electretmics)
+_record and arrange sound with audacity + speaker/mic feedback (small batterypowered speakers, piezos, electretmics)_
 
 //--audacity
 ------------

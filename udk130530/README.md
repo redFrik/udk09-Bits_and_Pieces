@@ -1,7 +1,7 @@
 130530
 ======
 
-_making sound from light with an Arduino (analog inputs, smoothing data, 1bit music)
+_making sound from light with an Arduino (analog inputs, smoothing data, 1bit music)_
 
 //--voltage dividers
 --------------------

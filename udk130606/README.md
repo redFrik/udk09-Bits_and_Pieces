@@ -1,7 +1,7 @@
 130606
 ======
 
-_take different sensors and log/share data online (ThingSpeak etc)
+_take different sensors and log/share data online (ThingSpeak etc)_
 
 NOTE: relocation to room 213 or 214 due to clash with Shapiro's workshop.
 
