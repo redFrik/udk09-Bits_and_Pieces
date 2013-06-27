@@ -18,3 +18,5 @@ low voltage audio power amplifier
 ![IMG_20130627_125121](https://raw.github.com/redFrik/udk09-Bits_and_Pieces/master/udk130627/IMG_20130627_125121.jpg)
 
 ![IMG_20130627_125230](https://raw.github.com/redFrik/udk09-Bits_and_Pieces/master/udk130627/IMG_20130627_125230.jpg)
+
+![IMG_20130627_125230+](https://raw.github.com/redFrik/udk09-Bits_and_Pieces/master/udk130627/IMG_20130627_125230+.jpg)
