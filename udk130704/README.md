@@ -21,9 +21,13 @@ video about how they work: <http://www.youtube.com/watch?v=TfnP--hEPms>
 
 <code>
 //supercollider test code
+
 s.boot
-{var src= SinOsc.ar; [src, Schmidt.ar(src, 0.75, 0.85)]}.plot(minval: -1, maxval: 1)
+
+{var src= SinOsc.ar(400)*SinOsc.ar(500); [src, Schmidt.ar(src, -0.5, 0.5)]}.plot(minval: -1, maxval: 1)
 </code>
+![schmitt](https://raw.github.com/redFrik/udk09-Bits_and_Pieces/master/udk130704/schmitt.png)
+a lower threshold of -0.5 and an upper threshold of 0.5.  the signal have to first go above 0.5 to trigger a 1, then go below -0.5 to trigger a 0.
 
 //--power starvation
 --------------------
@@ -49,3 +53,8 @@ try to place the micro_noise circuit in a black box.  the ldr and led will inter
 * speaker
 * wire
 * pcb proto board
+
+//--extra
+---------
+* connect it together with the lm386 amplifier from last week
+* modify the circuit - replace the ldr with a potentiometer, add more pots, connect 2nd pair of schmitt triggers.
