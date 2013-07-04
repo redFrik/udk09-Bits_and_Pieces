@@ -13,6 +13,9 @@ it is easy to modify and experiment with different resistors and capacitor.  you
 * <http://www.fredrikolofsson.com/f0blog/?q=node/349>
 * <http://www.fredrikolofsson.com/f0blog/?q=node/209>
 
+NOTE: you should consider adding a resistor to the output to bring the volume / voltage down.  it is very 'hot' and might damage sensitive audio equipment.
+a passive volume control with a simple potentiometer would be a good option.  <http://www.hometheaterhifi.com/qa/images/volume-control-potentiometer-connections-schematic.gif>
+
 //--schmitt trigger
 -------------------
 sort of comparator with two thresholds.  useful for filtering noisy sensor data and also, in combo with a capacitor, for making oscillators.  <http://en.wikipedia.org/wiki/Schmitt_trigger>
