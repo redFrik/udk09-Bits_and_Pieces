@@ -64,5 +64,6 @@ try to place the micro_noise circuit in a black box.  the ldr and led will inter
 
 //--extra
 ---------
-* connect it together with the lm386 amplifier from last week
-* modify the circuit - replace the ldr with a potentiometer, add more pots, connect 2nd pair of schmitt triggers.
+* connect it together with the lm386 amplifier and an 8ohm speaker from last week
+* modify the circuit - replace the ldr with a potentiometer, add more pots and switches
+* connect 2nd pair of schmitt triggers and make it stereo output
