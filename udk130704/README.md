@@ -46,6 +46,10 @@ try to place the micro_noise circuit in a black box.  the ldr and led will inter
 
 ![IMG_20130704_115021](https://raw.github.com/redFrik/udk09-Bits_and_Pieces/master/udk130704/IMG_20130704_115021.jpg)
 
+[
+<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F99639981"></iframe>
+]
+
 //--partslist
 -------------
 * MOS 4093 4xSCHMITT-TRIGGER
