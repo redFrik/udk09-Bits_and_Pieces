@@ -19,8 +19,10 @@ sort of comparator with two thresholds.  useful for filtering noisy sensor data 
 
 video about how they work: <http://www.youtube.com/watch?v=TfnP--hEPms>
 
+supercollider example:
+
 <code>
-{var sig= SinOsc.ar(400)*SinOsc.ar(500); [sig, Schmidt.ar(sig, -0.5, 0.5)]}.plot(minval: -1, maxval: 1) //sc
+{var sig= SinOsc.ar(400)*SinOsc.ar(500); [sig, Schmidt.ar(sig, -0.5, 0.5)]}.plot(minval: -1, maxval: 1)
 </code>
 
 ![schmitt](https://raw.github.com/redFrik/udk09-Bits_and_Pieces/master/udk130704/schmitt.png)
