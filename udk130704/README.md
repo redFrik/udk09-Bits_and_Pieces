@@ -42,6 +42,8 @@ when you lower the voltage with a potentiometer, or use nearly dead batteries, s
 ------------------------
 try to place the micro_noise circuit in a black box.  the ldr and led will interact in strange ways.
 
+![IMG_20130704_115021](https://raw.github.com/redFrik/udk09-Bits_and_Pieces/master/udk130704/IMG_20130704_115021.jpg)
+
 //--partslist
 -------------
 * MOS 4093 4xSCHMITT-TRIGGER
