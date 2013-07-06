@@ -49,6 +49,7 @@ stands for Secure SHell and is another often used standard for remote control of
 * repeat the `ssh 127.0.0.1` and this time you should get a question about authenticity. answer yes.
 * now you should be logged in to your own computer via ssh. (pointless but just to prove it working). logout and leave with `exit`.
 * IMPORTANT: although ssh should be considered safe, remember to turn off remote login in system preferences / sharing when you don't use it.
+* sometimes when you try to connect to different machines, you get errors looking like `WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!`.  that means there used to be another computer at that same ip and the ssh key isn't working any longer.  you can reset this key with `ssh-keygen -R 192.168.1.53` or whatever ip you're trying to connect to.
 
 //--ssh on my rpi
 -----------------
