@@ -1,0 +1,36 @@
+#N canvas 583 104 449 558 16;
+#X declare -lib mrpeach;
+#X obj 165 16 import mrpeach;
+#X obj 76 108 unpackOSC;
+#X obj 76 144 route /data;
+#X obj 76 188 unpack f f f f;
+#X floatatom 187 249 5 0 0 0 - - -;
+#X obj 76 67 udpreceive 9000;
+#X floatatom 216 220 5 0 0 0 - - -;
+#X floatatom 144 284 5 0 0 0 - - -;
+#X floatatom 83 312 5 0 0 0 - - -;
+#X text 250 249 onset index;
+#X text 278 219 centroid;
+#X text 209 287 amplitude;
+#X text 143 314 pitch;
+#X obj 271 397 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 271 368 change;
+#X obj 368 372 vsl 15 128 200 9000 1 0 empty empty empty 0 -9 0 10
+-262144 -1 -1 9109 1;
+#X obj 96 368 vsl 15 128 200 9000 1 0 empty empty empty 0 -9 0 10 -262144
+-1 -1 6267 1;
+#X obj 194 369 vsl 15 128 0 1 0 0 empty empty empty 0 -9 0 10 -262144
+-1 -1 43 1;
+#X connect 1 0 2 0;
+#X connect 2 0 3 0;
+#X connect 3 0 8 0;
+#X connect 3 1 7 0;
+#X connect 3 2 4 0;
+#X connect 3 3 6 0;
+#X connect 4 0 14 0;
+#X connect 5 0 1 0;
+#X connect 6 0 15 0;
+#X connect 7 0 17 0;
+#X connect 8 0 16 0;
+#X connect 14 0 13 0;
