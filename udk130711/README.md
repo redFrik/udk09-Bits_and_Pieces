@@ -19,3 +19,18 @@ this is a very simple demonstration of how to extract a few features from sound.
 //--analys2
 -----------
 in this example there are settings to tune the analyser synth.
+
+* open `analys2.scd` and run the code
+* use the same pd/max patch and change settings from within sc
+
+//--extra
+---------
+read and play with the examples here...
+
+* <http://www.fredrikolofsson.com/software/PracticalSoundAnalysis01.html>
+* <http://www.fredrikolofsson.com/software/PracticalSoundAnalysis01examples.html>
+* <http://www.fredrikolofsson.com/software/PracticalSoundAnalysis02.html>
+* <http://www.fredrikolofsson.com/software/PracticalSoundAnalysis02examples.html>
+* <http://www.fredrikolofsson.com/software/PracticalSoundAnalysis03.html>
+* <http://www.fredrikolofsson.com/software/PracticalSoundAnalysis03examples.html>
+* <http://www.fredrikolofsson.com/software/PracticalSoundAnalysisExtras.html>
