@@ -6,21 +6,25 @@ _sound detection and categorization with SuperCollider sends out osc to MaxMSP/P
 //--supercollider examples
 --------------------------
 
-`
+```
 s.boot
 
 //--amplitude tracking
 
 //very basic amplitude tracking - controls frequency
+
 {SinOsc.ar(500*Amplitude.kr(SoundIn.ar(0)))}.play
 
 //with lag (smoooth) on the amplitude tracker
+
 {SinOsc.ar(500*Amplitude.kr(SoundIn.ar(0)).lag(0.2))}.play
 
 //with higher frequencies
+
 {SinOsc.ar(5000*Amplitude.kr(SoundIn.ar(0)).lag(0.2))}.play
 
 //with delay
+
 {SinOsc.ar(5000*Amplitude.kr(DelayN.ar(SoundIn.ar(0), 1, 1)).lag(0.2))}.play
 
 
@@ -53,7 +57,7 @@ s.boot
 
 //--timbre (centroid)
 {var fft= FFT(LocalBuf(2048), SoundIn.ar(0)); SinOsc.ar(SpecCentroid.kr(fft).poll)}.play
-`
+```
 
 //--analys1
 -----------
