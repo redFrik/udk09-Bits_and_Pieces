@@ -22,4 +22,4 @@ dates
 - [x] [20jun](https://github.com/redFrik/udk09-Bits_and_Pieces/tree/master/udk130620): record and arrange sound with audacity + speaker/mic feedback (small batterypowered speakers, piezos, electretmics)
 - [x] [27jun](https://github.com/redFrik/udk09-Bits_and_Pieces/tree/master/udk130627): building a general purpose preamp for electretmic/linein (+ try recording and live effects in SuperCollider)
 - [x] [04jul](https://github.com/redFrik/udk09-Bits_and_Pieces/tree/master/udk130704): build the micronoise evil sounding battery driven circuit
-- [ ] [11jul](https://github.com/redFrik/udk09-Bits_and_Pieces/tree/master/udk130711): sound detection and categorization with SuperCollider sends out osc to MaxMSP/PureData (pitch, amplitude, onsets, centroid)
+- [x] [11jul](https://github.com/redFrik/udk09-Bits_and_Pieces/tree/master/udk130711): sound detection and categorization with SuperCollider sends out osc to MaxMSP/PureData (pitch, amplitude, onsets, centroid)
