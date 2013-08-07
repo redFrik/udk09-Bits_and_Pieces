@@ -89,19 +89,20 @@ s.waitForBoot{
 	var crc= 0x55AA;
 	var list= List[];
 	var array= [];
+	var num;
 	vv.size.roundUp(pageSize).do{|i|
 		var frameParameters, frameData;
 		var x= if(i<vv.size, {vv[i]}, {255});
 		if(frameCnt%pageSize==0, {
 			//--frame intro header
-			frameParameters= [2, pageIndex&255, pageIndex>>8&255, crc&255, crc>>8&255].collect{|x| 1-x.asBinaryDigits(8)}.flat;
-			list.add(differentialManchesterEncodeStream.value(pageHeader).flat*2-1);
-			list.add(differentialManchesterEncodeStream.value(frameParameters).flat*2-1);
+			frameParameters= ([2, pageIndex, pageIndex>>8, crc, crc>>8]&255).collect{|x| 1-x.asBinaryDigits(8)}.flat;
+			list.add(differentialManchesterEncodeStream.value(pageHeader).flat);
+			list.add(differentialManchesterEncodeStream.value(frameParameters).flat);
 			pageIndex= pageIndex+1;
 		});
 		//--frame data (8 bits)
 		frameData= 1-x.asBinaryDigits(8);
-		list.add(differentialManchesterEncodeStream.value(frameData).flat*2-1);
+		list.add(differentialManchesterEncodeStream.value(frameData).flat);
 		if(frameCnt%pageSize==(pageSize-1), {
 			//--frame end
 			array= array.add(list.flat);
@@ -115,14 +116,14 @@ s.waitForBoot{
 		var x= 255;
 		if(frameCnt%pageSize==0, {
 			//--frame intro header
-			frameParameters= [3, pageIndex&255, pageIndex>>8&255, crc&255, crc>>8&255].collect{|x| 1-x.asBinaryDigits(8)}.flat;
-			list.add(differentialManchesterEncodeStream.value(pageHeader).flat*2-1);
-			list.add(differentialManchesterEncodeStream.value(frameParameters).flat*2-1);
+			frameParameters= ([3, pageIndex, pageIndex>>8, crc, crc>>8]&255).collect{|x| 1-x.asBinaryDigits(8)}.flat;
+			list.add(differentialManchesterEncodeStream.value(pageHeader).flat);
+			list.add(differentialManchesterEncodeStream.value(frameParameters).flat);
 			pageIndex= pageIndex+1;
 		});
 		//--frame data (8 bits)
 		frameData= x.asBinaryDigits(8);
-		list.add(differentialManchesterEncodeStream.value(frameData).flat*2-1);
+		list.add(differentialManchesterEncodeStream.value(frameData).flat);
 		if(frameCnt%pageSize==(pageSize-1), {
 			//--frame end
 			array= array.add(list.flat);
@@ -131,19 +132,20 @@ s.waitForBoot{
 		frameCnt= frameCnt+1;
 	};
 	("number of pages:"+array.size).postln;
+	num= pageSize+5*8+startSequencePulses+1*manchesterNumberOfSamplesPerBit;
 	SynthDef(\manchester, {|out= 0, amp= 1|
-		var data= Control.names([\data]).ir(Array.fill(pageSize+5*8+startSequencePulses+1*manchesterNumberOfSamplesPerBit.div(2), 0));
+		var data= Control.names([\data]).ir(Array.fill(num.div(2), 0));
 		var src= Duty.ar(manchesterNumberOfSamplesPerBit.div(2)*SampleDur.ir, 0, Dseq(data++0), 2);
-		OffsetOut.ar(out, src);
+		OffsetOut.ar(out, src*amp);
 	}).add;
 	s.sync;
 	Routine.run({
 		array.do{|x, i|
 			("uploading page:"+i).postln;
 			s.bind{
-				Synth(\manchester, [\data, x, \amp, 1]);
+				Synth(\manchester, [\data, x*2-1]);
 			};
-			(pageSize+5*8+startSequencePulses+1*manchesterNumberOfSamplesPerBit/s.sampleRate+silenceBetweenPages).wait;
+			(num/s.sampleRate+silenceBetweenPages).wait;
 		};
 	});
 };
