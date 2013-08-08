@@ -1,10 +1,10 @@
 //--f.olofsson (with lots of study of the AudioBoot_V2_0 java code by chris www.roboterclub-freiburg.de)
 //code for uploading sketches to arduino from supercollider.  no ftdi chip needed
 
-//1. burn the bootloader from AudioBoot_V2_0 http://www.hobby-roboter.de/forum/viewtopic.php?f=4&t=127
-//2. build the circuit from http://www.hobby-roboter.de/forum/viewtopic.php?f=4&t=128&p=531
-//3. in arduino ide make sure board is set to atmega168 with 8mhz internal chrystal
-//4. code something in arduino ide, compile and get the .hex file (set preferences to verbose more)
+//1. burn the bootloader AudioBoot_V2_0 from http://www.hobby-roboter.de/forum/viewtopic.php?f=4&t=127
+//2. build the arduino barebone circuit from http://www.hobby-roboter.de/forum/viewtopic.php?f=4&t=128&p=531
+//3. in arduino ide make sure board is set to atmega168 with 8mhz internal crystal
+//4. code something in arduino ide, compile and get the .hex file (set preferences to verbose mode)
 //5. put the path in this code, turn up volume to 80%, press reset button and run this code to upload
 
 
