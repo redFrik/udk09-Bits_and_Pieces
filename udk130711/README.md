@@ -6,7 +6,7 @@ _sound detection and categorization with SuperCollider sends out osc to MaxMSP/P
 //--supercollider examples
 --------------------------
 
-```
+```supercollider
 s.boot
 
 //--amplitude tracking
