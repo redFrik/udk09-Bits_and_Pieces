@@ -29,7 +29,7 @@ OSCFunc({|msg|
 
 //and here are some settings...
 a.set(\rate, 15)		//much slower updaterate
-a.set(\pchLag, 1.5)	//more lag
+a.set(\pchLag, 1.5)		//more lag
 a.set(\ampRel, 5)		//long release time for amplitude tracker
 a.set(\onsThresh, 0.99)	//less sensitive onset trigger
 //etc

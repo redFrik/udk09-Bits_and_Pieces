@@ -53,7 +53,7 @@ posting data from an arduino via processing
 //--php (advanced)
 ------------------
 setting up a website with php scripts and a mysql database
-* create an account at http://en.altervista.org
+* create an account at https://en.altervista.org
 * log in and go to altersite / database and create a database
 * click `Access to PhpMyAdmin` and give name+pass
 * in phpmyadmin click your database name to the left

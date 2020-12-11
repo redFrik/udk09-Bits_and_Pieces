@@ -8,14 +8,14 @@
 //5. put the path in this code, turn up volume to 80%, press reset button and run this code to upload
 
 
-
-//http://en.wikipedia.org/wiki/Intel_HEX
+//https://fredrikolofsson.com/f0blog/arduino-programming-via-soundcard/
+//https://en.wikipedia.org/wiki/Intel_HEX
 //http://www.sbprojects.com/knowledge/fileformats/intelhex.php
 
 (
 //edit path here to point to a hex file...
-var path= "/Users/Stirling/arbeten/sc/scAudioino/a_dec.cpp.hex";
-//var path= "/Users/Stirling/arbeten/sc/scAudioino/a_inc.cpp.hex";
+var path= "~/scAudioino/a_dec.cpp.hex".standardizePath;
+//var path= "~/scAudioino/a_inc.cpp.hex".standardizePath;
 
 //--read and decode the hex file
 var f= File(path, "r");

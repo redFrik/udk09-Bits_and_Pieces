@@ -21,9 +21,9 @@ we are using the serial communication to send 8 values to control 6 pwm channels
 
 //--links
 ---------
-* <http://oomlout.com/8TRA/8TRA-Guide.pdf> about the uln2803
-* <http://fritzing.org> free software for drawing circuit diagrams - includes lots of examples.
-* <http://www.pighixxx.com/abc-arduino-basic-connections/> download pdf cards to learn more how to connect things to arduino
+* <https://web.archive.org/web/20130508183941/http://oomlout.com/8TRA/8TRA-Guide.pdf> about the uln2803
+* <https://fritzing.org> free software for drawing circuit diagrams - includes lots of examples.
+* <https://web.archive.org/web/20131215051859/http://www.pighixxx.com/abc-arduino-basic-connections/> download pdf cards to learn more how to connect things to arduino
 
 //--extras
 ----------

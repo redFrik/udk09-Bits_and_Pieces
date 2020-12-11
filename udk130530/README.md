@@ -55,9 +55,9 @@ With the analogRead() method you get a number from 0 to 1023 that matches this v
 
 //--links
 ---------
-* <http://learn.adafruit.com/photocells>
-* <http://arduino.cc/en/Tutorial/Tone2>
+* <https://learn.adafruit.com/photocells>
+* <https://www.arduino.cc/en/Tutorial/BuiltInExamples/tonePitchFollower>
 
 //--extras
 ----------
-* advanced - upload the monijonsyn code from <http://www.fredrikolofsson.com/f0blog/?q=node/161> and connect 3 pots and 1 button or replace the pots with 3 ldrs.
+* advanced - upload the monijonsyn code from <https://fredrikolofsson.com/f0blog/one-bit-music-workshop/> and connect 3 pots and 1 button or replace the pots with 3 ldrs.

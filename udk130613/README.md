@@ -8,7 +8,7 @@ _controlling computers from remote with Terminal (simple terminal commands and t
 * on mac osx the Terminal program is found in the folder /Applications/Utilities/
 * open Terminal and test some simple commands like `cd`, `ls`, `ls -la`, `pwd`, `cp`, `mkdir`, `touch`, `man`
 * other useful commands/programs: `pico`, `top`, `kill`, `file`, `ping`
-* see <http://ss64.com/osx/>
+* see <https://ss64.com/osx/>
 * up / down arrow = command history.
 * learn to use tab for autocompletion (quickly find pathnames and commands).
 * ctrl+a / ctrl+e = jump to beginning/end.
@@ -74,7 +74,7 @@ very useful for maintaining and writing code on computers in an installation fro
 
 * try to enable screen sharing on your on computer. it's under system preferences / sharing.
 * log in to your own computer from someone's machine.
-* download and install chicken from <http://sourceforge.net/projects/chicken/>
+* download and install chicken from <https://sourceforge.net/projects/chicken/>
 * open and create new connection to `92.229.62.95` on port 1 (that's my raspberry pi at home - this is temporary set up to do vnc and will only work today in class)
 * you should see the desktop of my raspberry pi computer running in my house. feel free to play around a little.
 
@@ -82,7 +82,7 @@ very useful for maintaining and writing code on computers in an installation fro
 
 //--links
 ---------
-* <http://www.telnet.org/htm/places.htm>
-* <http://gettingstartedwithraspberrypi.tumblr.com/post/29988200199/ssh>
-* <http://www.realvnc.com/products/>
-* <http://learn.adafruit.com/adafruit-raspberry-pi-lesson-7-remote-control-with-vnc/overview>
+* <https://www.telnet.org/htm/places.htm>
+* <https://gettingstartedwithraspberrypi.tumblr.com/post/29988200199/ssh>
+* <https://www.realvnc.com/products/>
+* <https://learn.adafruit.com/adafruit-raspberry-pi-lesson-7-remote-control-with-vnc/overview>

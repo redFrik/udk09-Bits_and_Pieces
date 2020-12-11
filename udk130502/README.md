@@ -5,14 +5,14 @@ _MIDI from MaxMSP or PureData hooked up to OpenGL graphics in Processing_
 
 //--install Processing
 ----------------------
-1. download and install Processing (2.0b8) from <http://processing.org/download>
+1. download and install Processing (2.0b8) from <https://processing.org/download>
 2. play around with some examples
 3. try the sketch `udk_test1.pde`
 4. try the sketches `udk_sketch00.pde` to `udk_sketch05.pde` and change things
 
 //--midi
 --------
-1. old technique mainly for connecting hardware synths and controllers (midi saxophone, midi drum kits, midi 'usb' controllers).  see <http://en.wikipedia.org/wiki/Midi>
+1. old technique mainly for connecting hardware synths and controllers (midi saxophone, midi drum kits, midi 'usb' controllers).  see <https://en.wikipedia.org/wiki/MIDI>
 2. note drawbacks: only 7bits (0-127), slow serial, note on/off, controllers, program change etc. see midi spec
 
 //--midi hardware
@@ -23,7 +23,7 @@ _MIDI from MaxMSP or PureData hooked up to OpenGL graphics in Processing_
 //--midi software
 -----------------
 1. midi iac bus. osx: open the Audio MIDI setup app in Applications/Utilities and activate the IAC bus. this will let you send midi between applications.
-2. download the promidi library (2.0) from <http://processing.org/reference/libraries/> and <http://creativecomputing.cc/p5libs/promidi/>
+2. download the promidi library (2.0) from <https://processing.org/reference/libraries/> and <http://creativecomputing.cc/p5libs/promidi/>
 3. put it inside `~/Documents/Processing/libraries` and restart processing
 
 //--option #1 - test pd
@@ -34,7 +34,7 @@ _MIDI from MaxMSP or PureData hooked up to OpenGL graphics in Processing_
 
 //--option #2 - test with max/msp
 ---------------------------------
-1. either unpack the `udk_midi00.app.zip` application or install the demo version of max/msp (5 or 6.1 from <http://cycling74.com/downloads>) and then open the `udk_midi00.maxpat`.
+1. either unpack the `udk_midi00.app.zip` application or install the demo version of max/msp (5 or 6.1 from <https://cycling74.com/downloads>) and then open the `udk_midi00.maxpat`.
 2. in max/msp you can also try `MIDItester` under max menu called 'Extras'
 3. run the sketch `udk_midi00.pde` with the max patch `udk_midi00`
 

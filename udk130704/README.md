@@ -5,22 +5,22 @@ _build the micronoise evil sounding battery driven circuit_
 
 //--micronoise
 --------------
-great little circuit by SGMK.  see pdf here... <http://www.mechatronicart.ch/diymakeaway/micro-noise>
+great little circuit by SGMK.  see pdf here... <https://web.archive.org/web/20150905085215/http://www.mechatronicart.ch/diymakeaway/micro-noise>
 
 it is easy to modify and experiment with different resistors and capacitor.  you can also play with the two unused schmitt triggers (4093 has four in total).
-* <http://www.fredrikolofsson.com/f0blog/?q=node/162>
-* <http://www.fredrikolofsson.com/f0blog/?q=node/351>
-* <http://www.fredrikolofsson.com/f0blog/?q=node/349>
-* <http://www.fredrikolofsson.com/f0blog/?q=node/209>
+* <https://fredrikolofsson.com/f0blog/micro-noise2/>
+* <https://fredrikolofsson.com/f0blog/micro-noise-joy/>
+* <https://fredrikolofsson.com/f0blog/absolut-micro-noise2/>
+* <https://fredrikolofsson.com/f0blog/micro-noise2-batch/>
 
 NOTE: you should consider adding a resistor to the output to bring the volume / voltage down.  it is very 'hot' and might damage sensitive audio equipment.
-a passive volume control with a simple potentiometer would be a good option.  <http://www.hometheaterhifi.com/qa/images/volume-control-potentiometer-connections-schematic.gif>
+a passive volume control with a simple potentiometer would be a good option.  <https://www.hometheaterhifi.com/qa/images/volume-control-potentiometer-connections-schematic.gif>
 
 //--schmitt trigger
 -------------------
-sort of comparator with two thresholds.  useful for filtering noisy sensor data and also, in combo with a capacitor, for making oscillators.  <http://en.wikipedia.org/wiki/Schmitt_trigger>
+sort of comparator with two thresholds.  useful for filtering noisy sensor data and also, in combo with a capacitor, for making oscillators.  <https://en.wikipedia.org/wiki/Schmitt_trigger>
 
-video about how they work: <http://www.youtube.com/watch?v=TfnP--hEPms>
+video about how they work: <https://www.youtube.com/watch?v=TfnP--hEPms>
 
 supercollider example:
 
@@ -41,7 +41,7 @@ and another example using the mouse x position.
 //--power starvation
 --------------------
 when you lower the voltage with a potentiometer, or use nearly dead batteries, strange things happens.  this technique is often called to power starve a circuit.
-<http://www.beavisaudio.com/Projects/DBS/>
+<https://web.archive.org/web/20120122032702/http://www.beavisaudio.com/Projects/DBS/>
 
 //--led and ldr feedback
 ------------------------

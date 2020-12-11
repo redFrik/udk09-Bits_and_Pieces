@@ -21,7 +21,7 @@ Advanced: This will also work with atmega328 and most of the tiny avr chips as w
 
 //--preparation for burning bootloader
 --------------------------------------
-We will use a real arduino (maybe borrowed from a friend) to burn the bootloaded to the bare atmega168 chip. See bottom right connection diagram... <http://arduino.cc/en/Tutorial/ArduinoISP> on how to connect a atmega168 to an arduino with external chrystal.
+We will use a real arduino (maybe borrowed from a friend) to burn the bootloaded to the bare atmega168 chip. See bottom right connection diagram... <https://www.arduino.cc/en/Tutorial/BuiltInExamples/ArduinoISP> on how to connect a atmega168 to an arduino with external chrystal.
 
 * connect arduino 5v to atmega168 pin 7
 * connect arduino gnd to atmega168 pin 8
@@ -36,7 +36,7 @@ We will use a real arduino (maybe borrowed from a friend) to burn the bootloaded
 
 //--burn bootloader with an arduino
 -----------------------------------
-1. download and install Arduino IDE software from <http://arduino.cc/en/Main/Software> if you haven't already got it.
+1. download and install Arduino IDE software from <https://www.arduino.cc/en/software> if you haven't already got it.
 2. in Arduino IDE software under Tools/Board select the board that matches your real arduino (use Uno for RedBoard).
 3. select the serial port of the real arduino under Tools/SerialPort.
 4. open and upload the 'ArduinoISP' sketch from Examples menu.
@@ -44,7 +44,7 @@ We will use a real arduino (maybe borrowed from a friend) to burn the bootloaded
 6. select 'Arduino as ISP' under Tools/Programmer.
 7. last 'Burn Bootloader' under Tools. It should take a little while and leds should be flashing during the process.
 
-If the serial port 'tty.usbserial-XXXXX' doesn't show up try installing the <http://www.ftdichip.com/Drivers/VCP.htm> (version 2.2.18 or later for mac (pick correct 32bit vs 64bit version of the driver)).
+If the serial port 'tty.usbserial-XXXXX' doesn't show up try installing the <https://www.ftdichip.com/Drivers/VCP.htm> (version 2.2.18 or later for mac (pick correct 32bit vs 64bit version of the driver)).
 
 You can also burn a bootloader with programmers like STK500 or USBtinyISP.
 
@@ -54,7 +54,7 @@ Advanced: With the STK500 and USBtinyISP programmers (unfortunately not with Ard
 
 //--upload sketches with FTDI
 -----------------------------
-Now we can upload sketches using small usb-to-serial ftdi adapters like <http://shop.moderndevice.com/products/bub_ii> or <http://www.tinkersoup.de/product_info.php?products_id=266>.
+Now we can upload sketches using small usb-to-serial ftdi adapters like <https://moderndevice.com/product/usb-bub-iii/> or <https://web.archive.org/web/20100307132310/http://www.tinkersoup.de/product_info.php?products_id=266>.
 
 * connect ftdi-chip 5v to atmega168 pin 7
 * connect ftdi-chip gnd to atmega168 pin 8
@@ -72,20 +72,20 @@ Note that you should always first reset the bare bone arduino by toggling power 
 
 //--links
 ---------
-* <http://arduino.cc/en/Hacking/PinMapping168> important for bare bone arduino!
-* <http://www.yuriystoys.com/2012/02/arduino-on-beadboard-uploading-your.html> very similar to what we just did
-* <http://pdp11.byethost12.com/AVR/ArduinoAsProgrammer.htm> and another more advanced tutorial
-* <http://wolfpaulus.com/jounal/embedded/minimalarduino> even more minimal arduino
+* <https://www.arduino.cc/en/Hacking/PinMapping168> important for bare bone arduino!
+* <https://www.yuriystoys.com/2012/02/arduino-on-beadboard-uploading-your.html> very similar to what we just did
+* <https://web.archive.org/web/20130128200723/http://pdp11.byethost12.com/AVR/ArduinoAsProgrammer.htm> and another more advanced tutorial
+* <https://wolfpaulus.com/minimalarduino/> even more minimal arduino
 * <http://hlt.media.mit.edu/?p=1695> for using smaller and cheaper chip called attiny
-* <http://www.pighixxx.com/abc-arduino-basic-connections/> great resource for anyone working with arduino (download the pdf cards)
+* <https://web.archive.org/web/20131215051859/http://www.pighixxx.com/abc-arduino-basic-connections/> great resource for anyone working with arduino (download the pdf cards)
 
 //--launchpad
 -------------
 * cheap alternative to an arduino
-* see <http://energia.nu> and <http://www.exp-tech.de/Mainboards/MSP430-LaunchPad-Value-Line-Development-kit.html> sell them cheap (≈ €5).
+* see <https://energia.nu> and <http://www.exp-tech.de/Mainboards/MSP430-LaunchPad-Value-Line-Development-kit.html> sell them cheap (≈ €5).
 * just make sure you get version 1.5 or later.
 * note that you will need to flip around the tx and rx jumpers (see attached picture where it says RXD and <https://github.com/energia/Energia/wiki/Hardware>)
-* <http://www.instructables.com/id/Use-Arduino-code-on-a-TI-Launchpad-MSP430/>
+* <https://www.instructables.com/id/Use-Arduino-code-on-a-TI-Launchpad-MSP430/>
 
 ![launchpad](https://raw.github.com/redFrik/udk09-Bits_and_Pieces/master/udk130516/IMG_20130516_044554.jpg)
 

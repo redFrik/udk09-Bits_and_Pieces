@@ -5,7 +5,7 @@ _record and arrange sound with audacity + speaker/mic feedback (small batterypow
 
 //--audacity
 ------------
-* download and install from <http://audacity.sourceforge.net> (version 2.0.3).
+* download and install from <https://audacityteam.org> (version 2.0.3).
 * select internal mic as audio input.
 * say 'aaaaaaa' and record your voice for approximately 5 seconds.
 * select effect / normalize.
@@ -65,7 +65,7 @@ _record and arrange sound with audacity + speaker/mic feedback (small batterypow
 
 //--routing audio
 -----------------
-* download and install soundflower from <http://code.google.com/p/soundflower/> (version 1.6.6b)
+* download and install soundflower from <https://code.google.com/archive/p/soundflower/> (version 1.6.6b)
 * after computer restart, open system preferences and select `Soundflower (2ch)` as audio output device.
 * start supercollider and boot the server.
 * double check that the post window says: <code>"Soundflower (2ch)" Output Device</code>
@@ -81,26 +81,26 @@ _record and arrange sound with audacity + speaker/mic feedback (small batterypow
 
 //--piezo
 ---------
-contact mics. you can buy them in different sizes at for instance <http://www.segor.de>. the bigger ones are better for lower frequencies (obviously).
-* <http://scacinto.wordpress.com/2012/12/03/how-to-make-contact-mics/> (good idea with alligator clips)
-* <http://christian.liljedahl.dk/guides/noise-free-piezo-microphone> (balanced piezos)
-* <http://makezine.com/2011/12/20/collins-lab-diy-contact-mic/> (with preamp)
-* <http://www.youtube.com/watch?v=P8iAshJ1Pk0>
-* <http://www.youtube.com/watch?v=8fXl67zGZlo>
+contact mics. you can buy them in different sizes at for instance <https://www.segor.de>. the bigger ones are better for lower frequencies (obviously).
+* <https://web.archive.org/web/20141230035849/http://scacinto.wordpress.com/2012/12/03/how-to-make-contact-mics> (good idea with alligator clips)
+* <https://christian.liljedahl.dk/balanced-piezo-microphone/> (balanced piezos)
+* <https://makezine.com/2011/12/20/collins-lab-diy-contact-mic/> (with preamp)
+* <https://www.youtube.com/watch?v=P8iAshJ1Pk0>
+* <https://www.youtube.com/watch?v=8fXl67zGZlo>
 
 //--electret
 ------------
 small and cheap microphone capsules. requires power (battery from around 3v to 9v).
-* <http://en.wikipedia.org/wiki/Electret_microphone>
-* <http://www.youtube.com/watch?v=LycH4cXgx7Q>
+* <https://en.wikipedia.org/wiki/Electret_microphone>
+* <https://www.youtube.com/watch?v=LycH4cXgx7Q>
 
 ![electret](https://raw.github.com/redFrik/udk09-Bits_and_Pieces/master/udk130620/electret_mic_power_schem.png)
 
 //--tapeheads
 -------------
 found in old walkmans.
-* <http://www.youtube.com/watch?v=tWQM6Rftzo4>
-* <http://hackaday.com/2012/04/18/reading-credit-cards-with-a-tape-head/>
+* <https://www.youtube.com/watch?v=tWQM6Rftzo4>
+* <https://hackaday.com/2012/04/18/reading-credit-cards-with-a-tape-head/>
 
 //--extras
 ----------

@@ -83,10 +83,10 @@ in this example there are settings to tune the analyser synth.
 ---------
 read and play with the examples here...
 
-* <http://www.fredrikolofsson.com/software/PracticalSoundAnalysis01.html>
-* <http://www.fredrikolofsson.com/software/PracticalSoundAnalysis01examples.html>
-* <http://www.fredrikolofsson.com/software/PracticalSoundAnalysis02.html>
-* <http://www.fredrikolofsson.com/software/PracticalSoundAnalysis02examples.html>
-* <http://www.fredrikolofsson.com/software/PracticalSoundAnalysis03.html>
-* <http://www.fredrikolofsson.com/software/PracticalSoundAnalysis03examples.html>
-* <http://www.fredrikolofsson.com/software/PracticalSoundAnalysisExtras.html>
+* <https://www.fredrikolofsson.com/software/PracticalSoundAnalysis01.html>
+* <https://www.fredrikolofsson.com/software/PracticalSoundAnalysis01examples.html>
+* <https://www.fredrikolofsson.com/software/PracticalSoundAnalysis02.html>
+* <https://www.fredrikolofsson.com/software/PracticalSoundAnalysis02examples.html>
+* <https://www.fredrikolofsson.com/software/PracticalSoundAnalysis03.html>
+* <https://www.fredrikolofsson.com/software/PracticalSoundAnalysis03examples.html>
+* <https://www.fredrikolofsson.com/software/PracticalSoundAnalysisExtras.html>
